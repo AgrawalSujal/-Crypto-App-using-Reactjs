@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 // export const server = process.env.REACT_APP_SERVER_URL;
 export const server = import.meta.env.VITE_SERVER_URL;
-console.log(server);
+
 
 const App = () => {
   // localStorage.clear();
